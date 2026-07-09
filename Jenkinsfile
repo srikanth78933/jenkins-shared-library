@@ -10,7 +10,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout the project from the 'project-1' branch in your GitHub repository
-                git branch: 'main', url: 'https://github.com/srikanth78933/simple-java-app.git'
+                git branch: 'main', url: 'https://github.com/srikanth78933/jenkins-shared-library.git'
             }
         }
         stage('Build') {
